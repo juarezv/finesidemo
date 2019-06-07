@@ -37,4 +37,14 @@ Subir al repositorio de github
 git remote add origin https://github.com/juarezv/finesidemo.git
 git push -u origin master  -> sube al repositorio
 
+https://github.com/juarezv/finesidemo
+
+=========
+para ignorar archivos 
+crearmos un archivo .gitignore 
+
+touch .gitignore
+./data/password.txt
+./data/*
+archivopesado.dat
 
