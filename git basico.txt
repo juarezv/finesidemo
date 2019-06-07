@@ -1,0 +1,40 @@
+Git: Controla las versiones
+     <No es necesario internet> 
+
+GitHub: Es un repositorio de codigo fuente
+      
+GitLab:  Instalan todo el servidor de respo
+
+=============================
+Git Bash -> Terminal de comandos
+  $pwd  ->indica la carpeta en donde estamos
+  $ls    -> listar el contenido de la carpeta
+  $ls -al -> listar, ver attributos, ver ocultos 
+  $cd d:  -> cambia de unidad (Win)
+  $mkdir  -> crear carpetas 
+  $cp   -> copiar 
+  $mv   -> mover o cambiar nombre 
+  $cd codigo -> ingresar carpeta codigo
+  $cd .. -> salir de carpeta
+
+Comandos Git
+========
+<Ingresar a la carpeta de nuestro codigo>
+ git init    -> Inicia el repositorio local
+ git add .   -> Agrega los cambios al repo local
+ git commit -m "Este es el codigo de la mañana"
+ git log  -> ver los commits anteriores
+
+ -> checkout permite cambiar de repositorio
+ git checkout f55d99f7b195758ce66a808a367aa8bcbb145b99
+ git checkout master   -> cambio de rama (branch)
+ 
+=================
+Subir al repositorio de github
+-- Crear una cuenta
+-- Crear Repositorio
+
+git remote add origin https://github.com/juarezv/finesidemo.git
+git push -u origin master  -> sube al repositorio
+
+
