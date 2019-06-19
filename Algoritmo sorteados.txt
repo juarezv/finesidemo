@@ -1,0 +1,14 @@
+
+Algorimos de Grafos
+===================
+
+1. Algoritmo Depth First Search (Gully) 
+2. Algoritmo Breadth First Search (Esther)
+3. Algoritmo Dijkstra (Omar )
+4. Algoritmo Krustal (Cesar)
+5. Algoritmo Bellman-Ford (*)
+ 
+Miercoles 26 - 
+  - El algoritmo funcionando 
+    Programacion Web.
+
