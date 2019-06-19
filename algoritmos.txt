@@ -1,4 +1,4 @@
-
+<?php
 
 Algoritmo Depth First Search
 Algoritmo Breadth First Search
@@ -6,6 +6,6 @@ Algoritmo Dijkstra
 Algoritmo Krustal
 Algoritmo Bellman-Ford 
  
+
 Nuevo algoritmo 
 
-Esta es otra linea
