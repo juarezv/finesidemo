@@ -6,3 +6,6 @@ Algoritmo Dijkstra
 Algoritmo Krustal
 Algoritmo Bellman-Ford 
  
+Nuevo algoritmo 
+
+Esta es otra linea
