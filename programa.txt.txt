@@ -1,9 +1,20 @@
-Este es el codigo fuente de Listas
+$user = 'root';
+$pass = '1234';
+$db = new PDO('mysql:host=localhost;dbname=biblioteca;charset=UTF-8', $user, $pass);
 
-Este codigo lo modifue por la tarde
+$gsent = $db->prepare("SELECT * FROM libros");
+$gsent->execute();
 
-jdlñsajfdas
-jfdkasjfldsa
-jfkldsajflad
+$result = $gsent->fetch(PDO::FETCH_ASSOC); -> una fila
+print_r($result);
 
-jfdkflasd
+$result = $gsent->fetchAll(PDO::FETCH_ASSOC); -> todo el contenido
+
+--- codigo para mostrar
+
+foreach($result as $fila)
+{  
+   echo $fila['titulo'];
+   echo $fila['contenido'];
+}
+ 

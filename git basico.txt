@@ -48,3 +48,10 @@ touch .gitignore
 ./data/*
 archivopesado.dat
 
+=========
+adicional antes de hacer "git init" configurar
+
+
+git config --global user.email "juarezv@hotmail.com"
+git config --global user.name "Juan Carlos"
+
