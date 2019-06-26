@@ -1,0 +1,49 @@
+<html lang="en">
+  <head><meta name="generator" content="Hexo 3.8.0">
+    <title>Introduction — Vue.js</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Vue.js - The Progressive JavaScript Framework">
+    <meta name="viewport" content="width=device-width, initial-scale=1">	
+
+	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+	<body>
+		<div id="app">
+			 <input type="text" v-model="valor1">
+			 <input type="text" v-model="valor2">
+				{{ resultado }}
+			<button type="button" @click="sumar()"> Sumar </button>
+			<ol>
+				 <li v-for = "alumno in alumnos"> {{ alumno.nombre }} </li>
+			</ol>
+			<input type="text" v-model="nombre" >
+			{{ nombre }}	
+		</div>
+	</body>
+
+
+	<script type="text/javascript">
+		var app = new Vue({
+			  el: '#app',
+
+			  data: {
+			    nombre : '',
+			    valor1 : 0,
+			    valor2 : 0,
+			    resultado :0,
+
+			    alumnos : [
+ 					{ nombre : 'Jose', nota : 1 },
+ 					{ nombre : 'Maria', nota : 10 },
+ 					{ nombre : 'Mario', nota : 10 },
+			    ]
+			  },
+			  methods : {
+			  	 sumar(){
+			  	 	this.resultado = parseInt( this.valor2) + parseInt(this.valor1);
+			  	 }
+			  }
+			})
+	</script>
+</html>
+
