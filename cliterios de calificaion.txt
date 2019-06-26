@@ -1,0 +1,12 @@
+- Presentacion del Algoritmo 
+   - Animacion
+   - Representacion con grafos
+- Algoritmo 
+   - Lenguaje App Web
+   - Librerias 
+- Casos Aplicativos
+   - Donde se aplica el algoritmo
+- En el respositorio de cada Grupo
+     - Diapositas, Animacion etc.
+     - Codigo Fuente
+     - List de integrantes
