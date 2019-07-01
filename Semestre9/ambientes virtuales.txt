@@ -1,0 +1,43 @@
+
+PHP LMS -
+=========
+*Atutor :  https://atutor.github.io
+*Claroline: https://claroline.net/
+*Chamilo: https://chamilo.org/es/
+*Moodle: https://moodle.org/?lang=es
+
+JAVA LMS - Apache Tomcat
+=========
+*Sakai: https://www.sakailms.org
+
+Apache+PHP+Mysql
+================
+ XAMP
+ Homestead - VirualBox  
+
+Servidor Web Apache
+====================
+- Utiliza el protocolo HTTP (80) HTTPS (443)
+ netstat -ant
+   -> verificar que este LISTENER 
+- Probar servidor 
+   http://localhost
+   http://127.0.0.1 
+   http://pcnombre
+-  MySQL escucha en el puerto 3306
+   verificar con netstat -ant
+- Cambio de Puerto en caso de que
+  este ocupado el puerto
+    Archivo de configuracion
+      httpd.conf -> Listen 80 -> 8080
+
+-> Traer instalado el 
+   - XAMPP ->PHP
+   - Servidor Apache Tomcat -> JAVA
+   - Instalado el Moodle, Claroline, Atutor
+     Chamilio, Sakai
+
+   
+
+   
+

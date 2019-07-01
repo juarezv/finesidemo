@@ -3,15 +3,20 @@ Algorimos de Grafos
 ===================
 
 1. Algoritmo Depth First Search (Gully) 
+    Gully, Sanchez Apaza Liz  12,12
+     - no web, no contesto con pilas
 2. Algoritmo Breadth First Search (Esther)
+    - Gretty, cely , ponce grande   
 3. Algoritmo Dijkstra (Omar )
+    - gary, rodrigo, omar 
 4. Algoritmo Krustal (Cesar)
+   - cesar, royer, huana ayo
 5. Algoritmo Bellman-Ford (*)
  
 Miercoles 26 - 
   - El algoritmo funcionando 
     Programacion Web.
-
+=====================================
 - Presentacion del Algoritmo 
    - Animacion
    - Representacion con grafos
@@ -20,4 +25,5 @@ Miercoles 26 -
    - Librerias 
 - Casos Aplicativos
    - Donde se aplica el algoritmo
-   
+- En el respositorio de cada Grupo
+
