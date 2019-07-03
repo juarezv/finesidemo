@@ -1,0 +1,9 @@
+Resolver el Laberinto 
+  - Debe poder resolver cualquier laberinto
+  - Laberintos deben ser editables
+  - El tiempo en que resuelve el laberinto
+
+SUNAT 
+  - Caso adicional 
+  - Pasar del archivo de texto -> mysql
+
