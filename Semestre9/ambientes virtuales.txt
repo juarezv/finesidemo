@@ -38,6 +38,37 @@ Servidor Web Apache
      Chamilio, Sakai
 
    
+INSTALACION DE MOODLE
+=====================
+Instalar XAMPP
+  - Activar los servicios Apache, MySQL
+  - Verificar el servidor web
+       http://localhost
+       http://127.0.0.1
+  - Verificar phpmyadmin
+      http://localhost/phpmyadmin
+Instalar Moodle
+   - Copiar el archivo moodle-3.7.1.zip
+   - Descomprimir en la carpeta c:/xampp/htdocs
+   - http://localhost/moodle
+         Idioma en Ingles (en) -> para no descargar;
+         Seleccionar el tipo de controaldor
+             - seleccinar mariadb
+             - para corregir pueden abrir el archivo config.php
+                   cambiar de mysqli -> mariadb
+             - activar la extesion initl
+                   php.ini  y descomentamos la extension (quitar ;)
+                   Detener y activar el Apache 
+ 
+Trabajo Encargado
+======================   
+Siguiente clase
+ - Traer los instaladores 
+
+*Atutor :  https://atutor.github.io
+*Claroline: https://claroline.net/
+*Chamilo: https://chamilo.org/es/
+*Sakai: https://www.sakailms.org
 
    
 
