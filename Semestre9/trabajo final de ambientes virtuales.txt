@@ -1,0 +1,31 @@
+Cambio de Puerto
+===============
+HTTP (80) -> 8080
+HTTPS (443) -> 4433
+
+Editar el archivo de configuracion 
+  httpd.conf  --> http
+     Listen 80 -> Listen 8080
+     ServerName localhost:80 -> ServerName localhost:8080 
+  httpd-ssl.conf --> https
+    
+    Listen 443 -> Listen 4433
+    <VirtualHost _default_:443> -> <VirtualHost _default_:4433>
+
+Comentar la linea  moodle/admin/index.php
+
+Linea 712  //redirect("index.php?sessionstarted=1&lang=$CFG->lang");
+
+
+
+Jueves -> 18 de Julio 2019
+=======
+Trabajo en Grupo de 3
+=====================
+*Crear un Curso en Moodle
+ - Material de UnReal 
+ - Juego de UnReal
+ - Trabajo Encargado
+ - Un Examen Programado
+*Registrar Alumnos y 1 Profesor
+ 
